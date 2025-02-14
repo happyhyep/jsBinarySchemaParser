@@ -10,6 +10,7 @@
     "@babel/preset-env": "^7.8.4"
   },
   "main": "lib/index.js",
+  "type": "module",
   "scripts": {
     "example": "babel-node ./example/index.js",
     "example-debug": "babel-node --inspect-brk ./example/index.js",
